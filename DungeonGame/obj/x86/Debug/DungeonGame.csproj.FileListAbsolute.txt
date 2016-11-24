@@ -1,0 +1,10 @@
+c:\users\sherw_000\documents\visual studio 2015\Projects\DungeonGame\DungeonGame\bin\DesktopGL\x86\Debug\OpenTK.dll.config
+c:\users\sherw_000\documents\visual studio 2015\Projects\DungeonGame\DungeonGame\bin\DesktopGL\x86\Debug\DungeonGame.exe
+c:\users\sherw_000\documents\visual studio 2015\Projects\DungeonGame\DungeonGame\bin\DesktopGL\x86\Debug\DungeonGame.pdb
+c:\users\sherw_000\documents\visual studio 2015\Projects\DungeonGame\DungeonGame\bin\DesktopGL\x86\Debug\MonoGame.Framework.dll
+c:\users\sherw_000\documents\visual studio 2015\Projects\DungeonGame\DungeonGame\bin\DesktopGL\x86\Debug\NVorbis.dll
+c:\users\sherw_000\documents\visual studio 2015\Projects\DungeonGame\DungeonGame\bin\DesktopGL\x86\Debug\OpenTK.dll
+c:\users\sherw_000\documents\visual studio 2015\Projects\DungeonGame\DungeonGame\obj\x86\Debug\DungeonGame.csprojResolveAssemblyReference.cache
+c:\users\sherw_000\documents\visual studio 2015\Projects\DungeonGame\DungeonGame\obj\x86\Debug\DungeonGame.exe
+c:\users\sherw_000\documents\visual studio 2015\Projects\DungeonGame\DungeonGame\obj\x86\Debug\DungeonGame.pdb
+C:\Users\sherw_000\documents\visual studio 2015\Projects\DungeonGame\DungeonGame\bin\DesktopGL\x86\Debug\Content\FirstThing.xnb
