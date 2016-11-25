@@ -15,6 +15,8 @@ namespace DungeonGame
         Camera camera;
 
         private Texture2D pic;
+        private Texture2D ground;
+        private Texture2D floor;
 
         public Game1()
         {
@@ -49,7 +51,9 @@ namespace DungeonGame
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            pic = Content.Load<Texture2D>("FirstThing");
+            pic = Content.Load<Texture2D>("Content/images/FirstThing");
+            ground = Content.Load<Texture2D>("Content/images/Ground");
+            floor = Content.Load<Texture2D>("Content/images/Floor");
 
             // TODO: use this.Content to load your game content here
         }
@@ -90,7 +94,14 @@ namespace DungeonGame
             Matrix viewMatrix = camera.GetViewMatrix();
             spriteBatch.Begin(transformMatrix: viewMatrix);
 
-            spriteBatch.Draw(pic, new Rectangle(50, 50, 25, 25), Color.White);
+            spriteBatch.Draw(pic, new Rectangle(50, 50, 50, 50), Color.White);
+
+            for (int i = 0; i < 5; i++)
+            {
+                spriteBatch.Draw(ground, new Rectangle((i * 50) + 200, 500, 50, 50), Color.White);
+                spriteBatch.Draw(ground, new Rectangle((i * 50) + 200, 450, 50, 50), Color.White);
+                spriteBatch.Draw(floor, new Rectangle((i * 50) + 200, 400, 50, 50), Color.White);
+            }
 
             base.Draw(gameTime);
             spriteBatch.End();

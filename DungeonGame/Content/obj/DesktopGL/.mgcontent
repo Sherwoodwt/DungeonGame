@@ -4,6 +4,8 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/sherw_000/documents/visual studio 2015/Projects/DungeonGame/DungeonGame/Content/FirstThing.png</File>
+    <File>C:/Users/sherw_000/documents/visual studio 2015/Projects/DungeonGame/DungeonGame/Content/Content/images/FirstThing.png</File>
+    <File>C:/Users/sherw_000/documents/visual studio 2015/Projects/DungeonGame/DungeonGame/Content/Content/images/Floor.png</File>
+    <File>C:/Users/sherw_000/documents/visual studio 2015/Projects/DungeonGame/DungeonGame/Content/Content/images/Ground.png</File>
   </SourceFiles>
 </SourceFileCollection>

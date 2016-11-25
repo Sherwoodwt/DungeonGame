@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/sherw_000/documents/visual studio 2015/Projects/DungeonGame/DungeonGame/Content/FirstThing.png</SourceFile>
+  <SourceFile>C:/Users/sherw_000/documents/visual studio 2015/Projects/DungeonGame/DungeonGame/Content/Content/images/FirstThing.png</SourceFile>
   <SourceTime>2016-11-23T22:56:03.6355093-08:00</SourceTime>
-  <DestFile>C:/Users/sherw_000/documents/visual studio 2015/Projects/DungeonGame/DungeonGame/Content/bin/DesktopGL/FirstThing.xnb</DestFile>
-  <DestTime>2016-11-24T00:56:02.8725363-08:00</DestTime>
+  <DestFile>C:/Users/sherw_000/documents/visual studio 2015/Projects/DungeonGame/DungeonGame/Content/bin/DesktopGL/Content/images/FirstThing.xnb</DestFile>
+  <DestTime>2016-11-25T01:48:14.5890795-08:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-29T23:36:08-07:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
