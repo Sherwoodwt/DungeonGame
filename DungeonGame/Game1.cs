@@ -12,6 +12,8 @@ namespace DungeonGame
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        Camera camera;
+
         private Texture2D pic;
 
         public Game1()
@@ -32,6 +34,8 @@ namespace DungeonGame
             graphics.PreferredBackBufferHeight = 768;
             graphics.PreferredBackBufferWidth = 1200;
             graphics.ApplyChanges();
+
+            camera = new Camera(GraphicsDevice.Viewport);
 
             base.Initialize();
         }
@@ -83,7 +87,8 @@ namespace DungeonGame
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-            spriteBatch.Begin();
+            Matrix viewMatrix = camera.GetViewMatrix();
+            spriteBatch.Begin(transformMatrix: viewMatrix);
 
             spriteBatch.Draw(pic, new Rectangle(50, 50, 25, 25), Color.White);
 
